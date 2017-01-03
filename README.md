@@ -13,11 +13,11 @@
     - ext-curl (latest \*)
 - RUN composer update
 - RUN echo "web: vendor/bin/heroku-php-apache2" >> Procfile
-- PHP Docs:
+- Reference:
   - [PHP Support](https://devcenter.heroku.com/articles/php-support)
   - [PHP Settings](https://devcenter.heroku.com/articles/custom-php-settings)
 
-## Deploy
+## Heroku deploy
 
 - RUN heroku create <name>
 - RUN
@@ -26,6 +26,6 @@
   - git push origin master
   - git push heroku master
 
-## Rename app
+## Heroku rename app
 
 - RUN heroku apps:rename <newname>
