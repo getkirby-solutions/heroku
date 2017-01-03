@@ -1,18 +1,18 @@
 {
-  "name": "heyallan/kirbydocker",
-  "description": "Kirby on docker",
+  "name": "heyallan/kirby-heroku",
+  "description": "Kirby on Heroku",
   "type": "project",
   "require": {
     "php": "^5.5",
-    "ext-mbstring": "*"
-  },
-  "require-dev": {
-    "php": "^5.5",
+    "ext-curl": "*",
     "ext-mbstring": "*"
   },
   "license": "MIT",
-  "authors": [{
-    "name": "heyallan",
-    "email": "allanmoreno@live.com"
-  }]
+  "authors": [
+    {
+      "name": "heyallan",
+      "email": "hello@heyallan.com"
+    }
+  ],
+  "minimum-stability": "stable"
 }
