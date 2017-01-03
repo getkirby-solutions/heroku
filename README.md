@@ -1,0 +1,7 @@
+- site must be at root level
+  - todo: test subdirectory
+- run composer init
+  - require: php, ext-mbstring
+  - run composer update
+- create Procfile
+  - add `web: vendor/bin/heroku-php-apache2`

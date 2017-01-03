@@ -1,0 +1,18 @@
+{
+  "name": "heyallan/kirbydocker",
+  "description": "Kirby on docker",
+  "type": "project",
+  "require": {
+    "php": "^5.5",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "php": "^5.5",
+    "ext-mbstring": "*"
+  },
+  "license": "MIT",
+  "authors": [{
+    "name": "heyallan",
+    "email": "allanmoreno@live.com"
+  }]
+}
