@@ -4,9 +4,9 @@ node_modules
 
 # kirby #
 ############
-# thumbs
-thumbs/*
-!thumbs/index.html
+# thumbs - don't ignore on demo
+# thumbs/*
+# !thumbs/index.html
 # cache
 site/cache/*
 !site/cache/index.html
