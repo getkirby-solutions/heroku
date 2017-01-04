@@ -1,11 +1,21 @@
+# Kirby on Heroku
+
+> How to deploy Kirby CMS on Heroku cloud platform
+
 ## Notes
 
 - site must be at root level
   - todo: try subdirectory
 
-## Setup
+## Install Heroku
 
-- RUN git init (or git clone)
+- Download Heroku pkg
+- RUN heroku --version
+- RUN heroku login
+
+## Setup composer
+
+- RUN git init/clone
 - RUN composer init
   - require
     - php
@@ -17,7 +27,7 @@
   - [PHP Support](https://devcenter.heroku.com/articles/php-support)
   - [PHP Settings](https://devcenter.heroku.com/articles/custom-php-settings)
 
-## Heroku deploy
+## Deploy to Heroku
 
 - RUN heroku create <name>
 - RUN
