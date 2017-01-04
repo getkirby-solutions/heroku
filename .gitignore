@@ -4,35 +4,29 @@ node_modules
 
 # kirby #
 ############
-# directories with .gitkeep file will be pushed to production
-# don't ship predefined content inside these folders, will be overwritten on push
-############
-# content
-dist/site/accounts/*
-!dist/site/accounts/.gitkeep
-# avatars
-dist/assets/avatars/*
-!dist/assets/avatars/.gitkeep
 # thumbs
-dist/thumbs/*
-!dist/thumbs/.gitkeep
+thumbs/*
+!thumbs/index.html
+# cache
+site/cache/*
+!site/cache/index.html
+# avatars
+assets/avatars/*
+!assets/avatars/index.html
 # content
-dist/content/*
-!dist/content/.gitkeep
+site/accounts/*
+!site/accounts/index.html
+# content
+content/*
+!content/index.html
 
 # composer #
-############
-# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
 ############
 # composer.lock
 composer.phar
 /vendor/
 
 # Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
 ############
 *.7z
 *.dmg
