@@ -7,10 +7,6 @@
 # http://yourdomain.com/about-us/team
 RewriteEngine on
 
-# Rewrite everything to HTTPS
-# RewriteCond %{HTTPS} off
-# RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-
 # make sure to set the RewriteBase correctly
 # if you are running the site in a subfolder.
 # Otherwise links or the entire site will break.
@@ -23,7 +19,7 @@ RewriteEngine on
 # In some enviroments it's necessary to
 # set the RewriteBase to:
 #
-RewriteBase /
+# RewriteBase /
 
 # block text files in the content folder from being accessed directly
 RewriteRule ^content/(.*)\.(txt|md|mdown)$ index.php [L]
