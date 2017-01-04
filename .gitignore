@@ -16,9 +16,9 @@ assets/avatars/*
 # content
 site/accounts/*
 !site/accounts/index.html
-# content
-content/*
-!content/index.html
+# content - don't ignore on demo
+# content/*
+# !content/index.html
 
 # composer #
 ############

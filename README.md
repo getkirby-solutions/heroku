@@ -25,6 +25,7 @@
   - git commit --message "<desc>"
   - git push origin master
   - git push heroku master
+- RUN heroku run bash # to inspect server
 
 ## Heroku rename app
 
